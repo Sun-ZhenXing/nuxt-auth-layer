@@ -1,0 +1,42 @@
+{
+  "name": "@alexsun-top/nuxt-auth-layer",
+  "type": "module",
+  "private": false,
+  "version": "0.1.0",
+  "main": "nuxt.config.ts",
+  "author": "Alex Sun",
+  "license": "MIT",
+  "keywords": [
+    "nuxt",
+    "nuxt3",
+    "nuxt-layer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sun-ZhenXing/nuxt-auth-layer"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": "https://github.com/Sun-ZhenXing/nuxt-auth-layer/issues",
+
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@auth/core": "^0.17.0",
+    "@hebilicious/authjs-nuxt": "^0.3.5",
+    "@sidebase/nuxt-session": "^0.2.8",
+    "nuxt-security": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "nuxt": "^3.11.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  }
+}
